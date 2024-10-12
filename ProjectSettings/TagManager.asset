@@ -10,6 +10,7 @@ TagManager:
   - Bat
   - Weapon
   - Bullet
+  - GameManager
   layers:
   - Default
   - TransparentFX
