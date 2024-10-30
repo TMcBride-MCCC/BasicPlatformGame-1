@@ -737,7 +737,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 7853457561824045675, guid: 8a72ffba25c088349984b59bd2159399, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -775,7 +775,7 @@ Transform:
   m_GameObject: {fileID: 273364865}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.15440512, y: -0.9117, z: 0}
+  m_LocalPosition: {x: -0.1544051, y: -0.9117, z: 0}
   m_LocalScale: {x: 1, y: 0.996611, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2462,13 +2462,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171186694}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.23475885, y: 0.10731876, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.03865699, w: 0.99925256}
+  m_LocalPosition: {x: 0.2347589, y: 0.10731876, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 273364866}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.431}
 --- !u!212 &1171186696
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2509,7 +2509,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 7144472625831931075, guid: 8a72ffba25c088349984b59bd2159399, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2711,13 +2711,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312093073}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.45227385, y: 0.07858612, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.03865699, w: 0.99925256}
+  m_LocalPosition: {x: -0.4522738, y: 0.07858612, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 273364866}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.431}
 --- !u!212 &1312093075
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3920,7 +3920,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 8326015358568698469, guid: 8a72ffba25c088349984b59bd2159399, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

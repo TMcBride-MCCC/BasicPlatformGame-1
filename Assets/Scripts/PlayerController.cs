@@ -86,6 +86,8 @@ public class PlayerController : MonoBehaviour
             playerRigidBody.velocity = new Vector2(playerRigidBody.velocity.x, jumpForce);
 
             numJumps++;
+
+            playerAnimator.SetBool("isJumping", true);
         }
     }
 
@@ -95,6 +97,8 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Grounded"))
         {
             numJumps = 1;
+            playerAnimator.SetBool("isJumping", false);
+
         }
         else if (collision.gameObject.CompareTag("Bat"))
         {
