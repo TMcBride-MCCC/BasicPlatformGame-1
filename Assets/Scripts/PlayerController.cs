@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public GameObject weaponHoldLocation;
     public GameManager gameManager;
     private Animator playerAnimator;
+    public GameObject noDestroy;
 
     // Start is called before the first frame update
     void Start()
@@ -86,7 +87,6 @@ public class PlayerController : MonoBehaviour
             playerRigidBody.velocity = new Vector2(playerRigidBody.velocity.x, jumpForce);
 
             numJumps++;
-
             playerAnimator.SetBool("isJumping", true);
         }
     }
@@ -98,12 +98,17 @@ public class PlayerController : MonoBehaviour
         {
             numJumps = 1;
             playerAnimator.SetBool("isJumping", false);
-
         }
         else if (collision.gameObject.CompareTag("Bat"))
         {
             //gameover
             gameManager.gameOver();
+        }
+        else if (collision.gameObject.CompareTag("NextLevel"))
+        {
+            gameObject.transform.SetParent(noDestroy.transform);
+            DontDestroyOnLoad(noDestroy);
+            SceneManager.LoadScene("Level02");
         }
     }
 
